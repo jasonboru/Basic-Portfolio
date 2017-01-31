@@ -17,6 +17,12 @@ footer {
 	clear: both;
 }
 
+h2 {
+	color: #4aaaa5;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
 .headName {
 	float: left;
 	position: relative;
@@ -47,25 +53,41 @@ footer {
 
 .content {
 	float: left;
-	width: 650px;
+	position: relative;
+	margin: 30em;
+	left: 20%;
+	width: 630px;
+	padding: 10px;
 	background-color: #ffffff;
 }
 
 .content img {
+	height: 200px;
+	width: 200px;
+	margin: 10px;
 	float: left;
 	display: block;
 }
 
 .contact {
+	position: relative;
+	right: 10%;
 	float: right;
 	width: 270px;
+	margin: 70px;
 	background-color: #ffffff;
 }
 
-.contact ul {
+.contact li {
 	list-style-type: none;
 	float: right;
-	display: inline-block;
+	display: inline;
+}
+
+.contact img {
+	margin: auto;
+	height: 60px;
+	width: auto;
 }
 
 .group:after {
